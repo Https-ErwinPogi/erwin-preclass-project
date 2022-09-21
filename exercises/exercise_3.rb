@@ -9,10 +9,13 @@ def function_arrayAge (ages)
   arrayAge = []
 
   ages.each do |number|
+    #for (let number; number >= ages.length; i++)
     if number >= 18
+      # Stores data at arrayAge variable
       arrayAge << number
     end
   end
+  # Print the value
   return arrayAge
 end
 
